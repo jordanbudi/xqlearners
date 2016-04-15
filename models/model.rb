@@ -1,7 +1,7 @@
 def prep_ingredients(name, description, feature, rating)
   #the following if statement will process the first question: describe in one emoji
   if (description.to_i == 1) #heart-eyes
-    description = ["you were love at first sight", "I'm like a deer caught in the headlights of your beauty"].sample
+    description = ["you were love at first sight", "I'm like a deer caught in the headlights of your beauty", "your eyes light up my day"].sample
   elsif (description.to_i == 2) #winky face with tongue
     description = ["you drive me crazy"].sample
   elsif (description.to_i == 3) #fire
