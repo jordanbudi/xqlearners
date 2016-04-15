@@ -1,0 +1,116 @@
+body {
+  background: 
+    linear-gradient(
+      rgba(255, 255, 255, 0.75), 
+      rgba(255, 255, 255, 0.75)
+    ),
+    url(../images/patterns/Floral_amazing_bright_pattern_02_light.jpg);
+    text-align: center;
+    background-size: 500px 500px;
+  margin-bottom: 100px;
+}
+
+
+#A1{
+  max-width: 50%;
+  height: 450px;
+}
+
+#my-text-box{
+    font-weight: bold;
+    font-size: 3em; /* or larger */
+    height: 1.25em; /* or larger */
+    width: 400px; /* or larger */
+  text-align: center;
+}
+
+#icon_telephone{
+    font-weight: bold;
+    font-size: 3em; /* or larger */
+    text-align: center;
+}
+
+h1{
+  font-family: 'Holtwood One SC', serif;
+/*   font-size: 300%; */
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.subtitle{
+  margin: 0;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p, h3{
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 50px;
+}
+
+p{
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+#compliment{
+/*   font-family: 'Dancing Script', cursive; */
+}
+/* body{
+    background-image: url(../images/patterns/pattern_hipster_1.jpg);
+   text-align: center;
+} */
+
+#goback{
+  margin-top: 30px;
+}
+
+.heart-eyes{background-image:url(../images/emojis/714.png);}
+.tongue-eyes{background-image:url(../images/emojis/729.png);}
+.fire{background-image:url(../images/emojis/647.png);}
+.heart{background-image:url(../images/emojis/109.png);}
+.teeth{background-image:url(../images/emojis/745.png);}
+.lips{background-image:url(../images/emojis/426.png);}
+.eyes{background-image:url(../images/emojis/423.png);}
+.hair{background-image:url(../images/emojis/493.png);}
+.smarts{background-image:url(../images/emojis/768.png);}
+.muscles{background-image:url(../images/emojis/528.png);}
+.money{background-image:url(../images/emojis/542.png);}
+.one{background-image:url(../images/emojis/3.png);}
+.two{background-image:url(../images/emojis/4.png);}
+.three{background-image:url(../images/emojis/5.png);}
+.four{background-image:url(../images/emojis/6.png);}
+.five{background-image:url(../images/emojis/7.png);}
+
+
+.selector input{
+    margin:0;padding:0;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+}
+
+.selector input:active +.emoji{opacity: 1;}
+.selector input:checked +.emoji{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+}
+.emoji{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:100px;height:100px;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(.9) grayscale(.5) opacity(.7);
+       -moz-filter: brightness(.9) grayscale(.5) opacity(.7);
+            filter: brightness(.9) grayscale(.5) opacity(.7);
+}
+.emoji:hover{
+    -webkit-filter: brightness(1.2) grayscale(.25) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.25) opacity(.9);
+            filter: brightness(1.2) grayscale(.25) opacity(.9);
+}

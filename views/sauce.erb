@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<!--     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/materialize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Holtwood+One+SC' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1>Sauce Game</h1>
+    <h5 class="subtitle">Helping you #finesse since 2016</h5>
+
+    <form method='POST' action='/compliment' >
+       
+    
+     <p> What is this person's first name?</p> 
+      <i class="material-icons ">person_pin</i>
+     <input type='text' id='my-text-box' value="Crush" class="validate" name="name"/>
+         
+      <p> How would you describe this person in one Emoji? </p>
+      
+      <div class="selector">
+        
+        <input id="heart-eyes" type="radio" name="description" value="1">
+        <label class="emoji heart-eyes" for="heart-eyes"></label>
+
+        <input id="tongue-eyes" type="radio" name="description"value="2">
+        <label class="emoji tongue-eyes" for="tongue-eyes"></label>
+
+        <input id="fire" type="radio" name="description"value="3">  
+        <label class="emoji fire" for="fire"></label>
+
+        <input id="heart" type="radio" name="description"value="4">  
+        <label class="emoji heart" for="heart"></label>
+      
+      <p> What's this persons best feature?  </p>
+        
+        <input id="teeth" type="radio" name="feature" value="1">
+        <label class="emoji teeth" for="teeth"></label>
+        
+        <input id="lips" type="radio" name="feature" value="2">
+        <label class="emoji lips" for="lips"></label>
+        
+        <input id="eyes" type="radio" name="feature" value="3">
+        <label class="emoji eyes" for="eyes"></label>
+        
+        <input id="hair" type="radio" name="feature" value="4">
+        <label class="emoji hair" for="hair"></label>
+        
+        <input id="smarts" type="radio" name="feature" value="5">
+        <label class="emoji smarts" for="smarts"></label>
+        
+        <input id="muscles" type="radio" name="feature" value="6">
+        <label class="emoji muscles" for="muscles"></label>
+        
+        <input id="money" type="radio" name="feature" value="7">
+        <label class="emoji money" for="money"></label>
+        
+      
+
+      <p> How much do you like this person?(On a scale from 1-5) </p>
+      <input id="one" type="radio" name="rating" value="1">
+      <label class="emoji one" for="one"></label>
+        
+      <input id="two" type="radio" name="rating" value="2">
+      <label class="emoji two" for="two"></label>
+        
+      <input id="three" type="radio" name="rating" value="3">
+      <label class="emoji three" for="three"></label>
+        
+      <input id="four" type="radio" name="rating" value="4">
+      <label class="emoji four" for="four"></label>
+        
+      <input id="five" type="radio" name="rating" value="5">
+      <label class="emoji five" for="five"></label>
+      
+      <br>
+      <br>
+             
+         <button class="btn-large waves-effect waves-light pink lighten-2" type="submit" name="action">finesse
+    <i class="large material-icons right">pageview</i>
+  </button>
+
+    </form>
+  </body>
+</html

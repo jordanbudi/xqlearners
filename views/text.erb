@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<!--     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/materialize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Holtwood+One+SC' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+
+  <body>
+    
+  
+
+    
+      <form method='POST' action='/send'>
+        
+        
+        <div class="row">
+          <p> What is this person's Phone Number?</p> 
+          <div class="input-field col s4 offset-s4">
+            <i class="material-icons prefix">phone</i>
+            <input id="icon_telephone" type="tel" class="validate" name="phonenumber" required="" aria-required="true">
+            <label for="icon_telephone" data-error="wrong" data-success="right"></label>
+          </div>
+          
+          
+        </div>
+        
+        <div class="container">
+          <h1 id="compliment">   <%=@messagefortext%>    </h1>
+        </div>
+        
+        
+        <button class="btn waves-effect waves-light grey darken-3" type="button" onClick="window.history.back()" value="Generate Again">Go Back
+          <i class="material-icons right">skip_previous</i>
+        </button>
+        
+        <input type="hidden" name="messagefortext" value="<%=@messagefortext%>">
+        <button class="btn waves-effect waves-light grey darken-3" type="submit">Text Your Crush
+          <i class="material-icons right">textsms</i>
+        </button>                
+        
+        <a href="/" class="btn waves-effect waves-light grey darken-3">Start Over
+          <i class="material-icons right">replay</i>
+        </a>
+        
+      </form>
+      
+      
+  </div>
+    
+  </body>
+</html
