@@ -7,7 +7,7 @@ def prep_ingredients(name, description, feature, rating)
   elsif (description.to_i == 3) #fire
     description = ["you are fire", "you are lit", "you are dynamite"].sample
   elsif (description.to_i == 4) #heart
-    description = ["you make my heart skip a beat evertyime I see you", "when I see you my heart it's like my heart plays hopscotch inside of my chest"].sample
+    description = ["you make my heart skip a beat evertyime I see you", "when I see you it's like my heart plays hopscotch inside of my chest"].sample
   else #if they don't choose anything
     description = ["you are so unique there is no emoji to describe you"].sample
   end
