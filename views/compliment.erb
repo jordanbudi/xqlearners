@@ -8,11 +8,12 @@
     <link href='https://fonts.googleapis.com/css?family=Holtwood+One+SC' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Sauce Game</title>
   </head>
 
   <body>
     <br>
-    
+
     <h1 id="compliment" class="container">   <%=@compliment%>    </h1>
 
     <div class="container" id="backbuttons">
@@ -22,25 +23,27 @@
         <button class="btn waves-effect waves-light grey darken-3" type="button" onClick="window.history.back()" value="Generate Again">Go Back
           <i class="material-icons right">skip_previous</i>
         </button>
-       
+
         <button class="btn waves-effect waves-light grey darken-3" type="button" onClick="history.go(0)" value="Generate Again">Generate Again
           <i class="material-icons right">repeat</i>
         </button>
-        
+
         <input type="hidden" name="message" value="<%=@compliment%>">
+
+        <a href="/" class="btn waves-effect waves-light grey darken-3">Start Over
+          <i class="material-icons right">replay</i>
         
         <button class="btn waves-effect waves-light grey darken-3" type="submit">Text Your Crush
           <i class="material-icons right">textsms</i>
         </button>
 
-        <a href="/" class="btn waves-effect waves-light grey darken-3">Start Over
-          <i class="material-icons right">replay</i>
+
         </a>
-        
+
       </form>
-      
-      
+
+
   </div>
-    
+
   </body>
 </html
