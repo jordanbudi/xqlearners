@@ -27,7 +27,8 @@ class MyApp < Sinatra::Base
   post '/send' do
     @messagefortext = params[:messagefortext]
     @phonenumber = params[:phonenumber]
-    sendCrushMessage(@phonenumber, @messagefortext)
+    @admirer = params[:admirer]
+    sendCrushMessage(@phonenumber, @messagefortext, @admirer)
     erb :index
   end
 end
