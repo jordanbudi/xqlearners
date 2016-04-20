@@ -20,33 +20,36 @@
 
 
         <div class="row">
-          <p> What is this person's Phone Number?</p>
+          <p id="text-center">&nbsp;&nbsp;&nbsp;&nbsp;What is this person's Phone Number?</p>
           <div class="input-field col s4 offset-s4">
+
             <i class="material-icons prefix">phone</i>
             <input id="icon_telephone" type="tel" class="validate" name="phonenumber" required="" aria-required="true">
-            <label for="icon_telephone" data-error="wrong" data-success="right"></label>
+
           </div>
-
-
-        </div>
-
-        <div class="container">
-          <h1 id="compliment">   <%=@messagefortext%>    </h1>
         </div>
 
         <div class="row">
-          <p> From:</p>
-          <i class="material-icons ">person_pin</i>
-          <input type='text' id='my-text-box' value="A Secret Admirer" class="validate" name="admirer"/>
-        </div>
+          <div class="container">
+            <p >Your Message (click to edit):</p>
+          </div>
+          <div class="input-field col s4 offset-s4">
+            <textarea id="textarea1" class="materialize-textarea" placeholder="Type Message" name="messagefortext"></textarea>
+          </div>
+          </div>
+
+          <div class="row">
+            <p> From:</p>
+            <i class="material-icons ">person_pin</i>
+            <input type='text' id='my-text-box' value="A Secret Admirer" class="validate" name="admirer"/>
+          </div>
 
 
+        <div class="row">
+        <div class="container col offset-s2">
         <button class="btn waves-effect waves-light grey darken-3" type="button" onClick="window.history.back()" value="Generate Again">Go Back
           <i class="material-icons right">skip_previous</i>
         </button>
-
-        <input type="hidden" name="messagefortext" value="<%=@messagefortext%>">
-
 
         <a href="/" class="btn waves-effect waves-light grey darken-3">Start Over
           <i class="material-icons right">replay</i>
@@ -55,6 +58,8 @@
         <button class="btn waves-effect waves-light grey darken-3" type="submit">Text Your Crush
           <i class="material-icons right">textsms</i>
         </button>
+        </div>
+        </div>
 
         <br>
 
@@ -64,4 +69,12 @@
 
 
   </body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>=
+
+<script>
+  $( document ).ready(function() {
+  $('#textarea1').val("<%=@messagefortext%>")
+  });
+</script>
 </html
