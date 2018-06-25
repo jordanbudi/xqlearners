@@ -1,8 +1,8 @@
 $collectionOfBanners = {
   :fundamentalLiteracies => ["https://xqlearnergoals.herokuapp.com/images/learner-goals-posters/1-Master_of_fundamental_lit.png", "https://xqlearnergoals.herokuapp.com/images/learner-goals-posters/1-Master_of_fundamental_lit.svg"],
   :foundationalKnowledge => ["https://xqlearnergoals.herokuapp.com/images/learner-goals-posters/2-Holders_of_foundational_kno.png", "https://xqlearnergoals.herokuapp.com/images/learner-goals-posters/2-Holders_of_foundational_kno.svg"],
-  :originalThinkers => ["https://xqlearnergoals.herokuapp.com/images/learner-goals-posters/3-Generous_collab.png", "https://xqlearnergoals.herokuapp.com/images/learner-goals-posters/3-Generous_collab.svg"],
-  :generousCollaborators => ["https://xqlearnergoals.herokuapp.com/images/learner-goals-posters/4-Original_thinkers.png", "https://xqlearnergoals.herokuapp.com/images/learner-goals-posters/4-Original_thinkers.svg"],
+  :originalThinkers => ["https://xqlearnergoals.herokuapp.com/images/learner-goals-posters/4-Original_thinkers.png", "https://xqlearnergoals.herokuapp.com/images/learner-goals-posters/4-Original_thinkers.svg"],
+  :generousCollaborators => ["https://xqlearnergoals.herokuapp.com/images/learner-goals-posters/3-Generous_collab.png", "https://xqlearnergoals.herokuapp.com/images/learner-goals-posters/3-Generous_collab.svg"],
   :learnersForLife => ["https://xqlearnergoals.herokuapp.com/images/learner-goals-posters/5-Learners_for_life.png", "https://xqlearnergoals.herokuapp.com/images/learner-goals-posters/5-Learners_for_life.svg"]
 }
 
