@@ -5,7 +5,7 @@ def sendMessage(phoneNumber, path, name)
     @client.messages.create(
       from: '+19093452633',
       to: phoneNumber,
-      body: "Here is your XQ Learner Goal " + name +"! \nLearn More about XQ Learner Goals at: \n https://xqsuperschool.org/xq-schools/xq-learner-goals\n ",
+      body: "Thanks for playing, " + name +"! \nHere is your XQ Learner Goal!\nLearn More about XQ Learner Goals at:\nhttps://xqsuperschool.org/xq-schools/xq-learner-goals\n ",
       #media_url: path,
       )
 end
