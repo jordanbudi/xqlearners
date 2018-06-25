@@ -12,7 +12,7 @@ def sendMessage(phoneNumber, path, name)
     @client.messages.create(
       from: '+19093452633',
       to: phoneNumber,
-      body: "Thanks for playing" + name + "! \nHere is your XQ Learner Goal:",
+      body: "Here is your XQ Learner Goal.\n Thanks for playing" + name +"!",
       media_url: path,
       )
     sendMessage2(phoneNumber, name)
