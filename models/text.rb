@@ -6,7 +6,7 @@ def sendMessage(phoneNumber, path, name)
       from: '+19093452633',
       to: phoneNumber,
       body: "Thanks for playing, " + name +"! \nHere is your XQ Learner Goal:",
-      #media_url: path,
+      media_url: path,
       )
     sendMessage2(phoneNumber, name)
 end
@@ -18,6 +18,5 @@ def sendMessage2(phoneNumber, name)
       from: '+19093452633',
       to: phoneNumber,
       body: "Learn more about XQ Learner Goals at:\nhttps://xqsuperschool.org/xq-schools/xq-learner-goals",
-      #media_url: path,
       )
 end
