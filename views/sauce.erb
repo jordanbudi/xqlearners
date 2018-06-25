@@ -11,77 +11,235 @@
   </head>
 
   <body>
-    <h1>Sauce Game</h1>
-    <h5 class="subtitle">Helping you #finesse since 2016</h5>
+    <h1>XQ Learner Goals</h1>
+    <h5 class="subtitle">placeholder-text</h5>
 
     <form method='POST' action='/compliment' >
        
     
-     <p> What is this person's first name?</p> 
+     <p> What is your name?</p> 
       <i class="material-icons ">person_pin</i>
-     <input type='text' id='my-text-box' value="Crush" class="validate" name="name"/>
-         
-      <p> How would you describe this person in one Emoji? </p>
+     <input type='text' id='my-text-box' value="First Name" class="validate" name="name"/>
       
-      <div class="selector">
+      <div class="selector">   
         
-        <input id="heart-eyes" type="radio" name="description" value="1">
-        <label class="emoji heart-eyes" for="heart-eyes"></label>
+        <div id="q1" class="question-blocks">
+          <p class="question-text"> What emoji best describes you? </p>
+          
+          <div class="row">
+            <div class="col offset-m1 m2">
+              <input id="q1o1" type="radio" name="q1-description" value="1">
+              <label class="emoji blank-emoji responsive-img" for="q1o1"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q1o2" type="radio" name="q1-description" value="1">
+              <label class="emoji blank-emoji" for="q1o2"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q1o3" type="radio" name="q1-description"value="3"><label class="emoji blank-emoji" for="q1o3"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q1o4" type="radio" name="q1-description"value="4"><label class="emoji blank-emoji" for="q1o4"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q1o5" type="radio" name="q1-description"value="5">
+              <label class="emoji blank-emoji" for="q1o5"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+          </div>
+        </div>
 
-        <input id="tongue-eyes" type="radio" name="description"value="2">
-        <label class="emoji tongue-eyes" for="tongue-eyes"></label>
-
-        <input id="fire" type="radio" name="description"value="3">  
-        <label class="emoji fire" for="fire"></label>
-
-        <input id="heart" type="radio" name="description"value="4">  
-        <label class="emoji heart" for="heart"></label>
+        <div id="q2" class="question-blocks">
+          <p class="question-text"> You get the opportunity to travel anywhere, where do you go?</p>
+          
+          <div class="row">
+            <div class="col offset-m1 m2">
+              <input id="q2o1" type="radio" name="q2-description" value="1">
+              <label class="emoji blank-emoji" for="q2o1"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q2o2" type="radio" name="q2-description" value="1">
+              <label class="emoji blank-emoji" for="q2o2"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q2o3" type="radio" name="q2-description"value="3"><label class="emoji blank-emoji" for="q2o3"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q2o4" type="radio" name="q2-description"value="4"><label class="emoji blank-emoji" for="q2o4"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q2o5" type="radio" name="q2-description"value="5">
+              <label class="emoji blank-emoji" for="q2o5"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+          </div>
+        </div>
       
-      <p> What's this persons best feature?  </p>
-        
-        <input id="teeth" type="radio" name="feature" value="1">
-        <label class="emoji teeth" for="teeth"></label>
-        
-        <input id="lips" type="radio" name="feature" value="2">
-        <label class="emoji lips" for="lips"></label>
-        
-        <input id="eyes" type="radio" name="feature" value="3">
-        <label class="emoji eyes" for="eyes"></label>
-        
-        <input id="hair" type="radio" name="feature" value="4">
-        <label class="emoji hair" for="hair"></label>
-        
-        <input id="smarts" type="radio" name="feature" value="5">
-        <label class="emoji smarts" for="smarts"></label>
-        
-        <input id="muscles" type="radio" name="feature" value="6">
-        <label class="emoji muscles" for="muscles"></label>
-        
-        <input id="money" type="radio" name="feature" value="7">
-        <label class="emoji money" for="money"></label>
-        
-      
+        <div id="q3" class="question-blocks">
+          <p class="question-text"> If you were reborn into a mode of transportation, what would you be?</p>
+          
+          <div class="row">
+            <div class="col offset-m1 m2">
+              <input id="q3o1" type="radio" name="q3-description" value="1">
+              <label class="emoji blank-emoji" for="q3o1"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q3o2" type="radio" name="q3-description" value="1">
+              <label class="emoji blank-emoji" for="q3o2"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q3o3" type="radio" name="q3-description"value="3"><label class="emoji blank-emoji" for="q3o3"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q3o4" type="radio" name="q3-description"value="4"><label class="emoji blank-emoji" for="q3o4"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q3o5" type="radio" name="q3-description"value="5">
+              <label class="emoji blank-emoji" for="q3o5"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+          </div>
+        </div>
 
-      <p> How much do you like this person?(On a scale from 1-5) </p>
-      <input id="one" type="radio" name="rating" value="1">
-      <label class="emoji one" for="one"></label>
         
-      <input id="two" type="radio" name="rating" value="2">
-      <label class="emoji two" for="two"></label>
-        
-      <input id="three" type="radio" name="rating" value="3">
-      <label class="emoji three" for="three"></label>
-        
-      <input id="four" type="radio" name="rating" value="4">
-      <label class="emoji four" for="four"></label>
-        
-      <input id="five" type="radio" name="rating" value="5">
-      <label class="emoji five" for="five"></label>
+        <div id="q4" class="question-blocks">
+          <p class="question-text"> If you could have any job, what would you do?</p>
+          
+          <div class="row">
+            <div class="col offset-m1 m2">
+              <input id="q4o1" type="radio" name="q4-description" value="1">
+              <label class="emoji blank-emoji" for="q4o1"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q4o2" type="radio" name="q4-description" value="1">
+              <label class="emoji blank-emoji" for="q4o2"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q4o3" type="radio" name="q4-description"value="3"><label class="emoji blank-emoji" for="q4o3"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q4o4" type="radio" name="q4-description"value="4"><label class="emoji blank-emoji" for="q4o4"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q4o5" type="radio" name="q4-description"value="5">
+              <label class="emoji blank-emoji" for="q4o5"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+          </div>
+        </div>
+      
+      
+        <div id="q5" class="question-blocks">
+          <p class="question-text"> You survive a plane crash but are stranded in the wilderness. You're able to salvage one tool from the wreckage, what do you bring?</p>
+          
+          <div class="row">
+            <div class="col offset-m1 m2">
+              <input id="q5o1" type="radio" name="q5-description" value="1">
+              <label class="emoji blank-emoji" for="q5o1"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q5o2" type="radio" name="q5-description" value="1">
+              <label class="emoji blank-emoji" for="q5o2"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q5o3" type="radio" name="q5-description"value="3"><label class="emoji blank-emoji" for="q5o3"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q5o4" type="radio" name="q5-description"value="4"><label class="emoji blank-emoji" for="q5o4"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q5o5" type="radio" name="q5-description"value="5">
+              <label class="emoji blank-emoji" for="q5o5"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="q6" class="question-blocks">
+          <p class="question-text"> A famous muralist has offered to paint a mural outside of your school, what symbol do you give him for inspiration? </p>
+          
+          <div class="row">
+            <div class="col offset-m1 m2">
+              <input id="q6o1" type="radio" name="q6-description" value="1">
+              <label class="emoji blank-emoji" for="q6o1"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q6o2" type="radio" name="q6-description" value="1">
+              <label class="emoji blank-emoji" for="q6o2"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q6o3" type="radio" name="q6-description"value="3"><label class="emoji blank-emoji" for="q6o3"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q6o4" type="radio" name="q6-description"value="4"><label class="emoji blank-emoji" for="q6o4"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q6o5" type="radio" name="q6-description"value="5">
+              <label class="emoji blank-emoji" for="q6o5"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="q7" class="question-blocks">
+          <p class="question-text"> Which sport below speaks to your personality? </p>
+          
+          <div class="row">
+            <div class="col offset-m1 m2">
+              <input id="q7o1" type="radio" name="q7-description" value="1">
+              <label class="emoji blank-emoji" for="q7o1"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q7o2" type="radio" name="q7-description" value="1">
+              <label class="emoji blank-emoji" for="q7o2"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q7o3" type="radio" name="q7-description"value="3"><label class="emoji blank-emoji" for="q7o3"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q7o4" type="radio" name="q7-description"value="4"><label class="emoji blank-emoji" for="q7o4"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+            <div class="col m2">
+              <input id="q7o5" type="radio" name="q7-description"value="5">
+              <label class="emoji blank-emoji" for="q7o5"></label>
+              <p class="answer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet est nec euismod consectetur.</p>
+            </div>
+          </div>
+        </div>
       
       <br>
       <br>
+    </div>
              
-         <button class="btn-large waves-effect waves-light pink lighten-2" type="submit" name="action">finesse
+         <button class="btn-large waves-effect waves-light green lighten-1" type="submit" name="action">learn
     <i class="large material-icons right">pageview</i>
   </button>
 

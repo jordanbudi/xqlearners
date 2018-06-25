@@ -1,19 +1,19 @@
 body {
   background:
     linear-gradient(
-      rgba(255, 255, 255, 0.75),
-      rgba(255, 255, 255, 0.75)
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
     ),
-    url(../images/patterns/Floral_amazing_bright_pattern_02_light.jpg);
+    url(../images/patterns/back-to-school-pattern-04.jpg);
     text-align: center;
     background-size: 500px 500px;
   margin-bottom: 100px;
 }
 
 
-#A1{
-  max-width: 50%;
-  height: 450px;
+#xq-logo{
+  max-width: 40%;
+  /*height: 450px;*/
 }
 
 #my-text-box{
@@ -61,7 +61,7 @@ h1{
 p, h3{
   font-family: 'Open Sans', sans-serif;
   margin-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 p{
@@ -81,7 +81,20 @@ p{
   margin-top: 30px;
 }
 
-.heart-eyes{background-image:url(../images/emojis/714.png);}
+
+.question-blocks{
+  margin-top: 50px;
+}
+
+.answer-text{
+  font-size: 1em;
+  margin-top: 0px;
+}
+
+
+.einstein{background-image:url(../images/emojis/icons8-einstein.png);}
+.blank-emoji{background-image:url(../images/emojis/705.png);}
+.heart-eyes{background-image:url(../images/emojis/705.png);}
 .tongue-eyes{background-image:url(../images/emojis/729.png);}
 .fire{background-image:url(../images/emojis/647.png);}
 .heart{background-image:url(../images/emojis/109.png);}
