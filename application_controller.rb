@@ -10,25 +10,26 @@ class MyApp < Sinatra::Base
     erb :index
   end
 
-  post '/sauce' do
-    erb :sauce
+  post '/learnerGoalQuiz' do
+    erb :learnerGoalQuiz
   end
 
-  post '/compliment' do
-    @compliment = prep_ingredients(params[:name], params[:description], params[:feature], params[:rating])
-    erb :compliment
+  post '/learnerGoal' do
+    @learnerGoalPoster = collectAnswers(params[:question1], params[:question2], params[:question3], params[:question4], params[:question5], params[:question6], params[:question7])
+    @name = params[:name]
+    erb :learnerGoal
   end
 
-  post '/text' do
-    @messagefortext = params[:message]
+  get '/text' do
+    @messagefortext = "hello"
     erb :text
   end
 
   post '/send' do
-    @messagefortext = params[:messagefortext]
     @phonenumber = params[:phonenumber]
-    @admirer = params[:admirer]
-    sendCrushMessage(@phonenumber, @messagefortext, @admirer)
+    @path = params[:path]
+    @name = params[:name]
+    sendMessage(@phonenumber, @path, @name)
     erb :index
   end
 end

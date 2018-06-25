@@ -8,19 +8,24 @@
     <link href='https://fonts.googleapis.com/css?family=Holtwood+One+SC' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>Sauce Game</title>
+    <title>XQ Learner Goals</title>
   </head>
 
   <body>
+    <br>
+    <div class = "container">
+      <div class="row">
+        <div class="col m6 offset-m3">
+          <img src="<%=@learnerGoalPoster%>">
+        </div>
+      </div>
+    </div>
 
-
-
-
+    <div class="container" id="backbuttons">
       <form method='POST' action='/send'>
-
-
         <div class="row">
-          <p id="text-center">&nbsp;&nbsp;&nbsp;&nbsp;What is this person's Phone Number?</p>
+          <p id="text-center">Text Yourself This Image<br><sub>We won't spam or add your number to any list</sub></p>
+
           <div class="input-field col s4 offset-s4">
 
             <i class="material-icons prefix">phone</i>
@@ -29,50 +34,25 @@
           </div>
         </div>
 
-        <div class="row">
-          <div class="container">
-            <p >Your Message (click to edit):</p>
-          </div>
-          <div class="input-field col s4 offset-s4">
-            <textarea id="textarea1" class="materialize-textarea" placeholder="Type Message" name="messagefortext"></textarea>
-          </div>
-          </div>
-
-          <div class="row">
-            <p> From:</p>
-            <i class="material-icons ">person_pin</i>
-            <input type='text' id='my-text-box' value="A Secret Admirer" class="validate" name="admirer"/>
-          </div>
-
-
-
         <button class="btn waves-effect waves-light grey darken-3" type="button" onClick="window.history.back()" value="Generate Again">Go Back
           <i class="material-icons right">skip_previous</i>
         </button>
 
+
+        <input type="hidden" name="path" value="<%=@learnerGoalPoster%>">
+        <input type="hidden" name="name" value="<%=@name%>">
+
         <a href="/" class="btn waves-effect waves-light grey darken-3">Start Over
           <i class="material-icons right">replay</i>
         </a>
-
-        <button class="btn waves-effect waves-light grey darken-3" type="submit">Text Your Crush
+        
+        <button class="btn waves-effect waves-light grey darken-3" type="submit">Text Yourself
           <i class="material-icons right">textsms</i>
         </button>
-
-
-        <br>
-
       </form>
 
 
-
+  </div>
 
   </body>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
-
-<script>
-  $( document ).ready(function() {
-  $('#textarea1').val("<%=@messagefortext%>")
-  });
-</script>
 </html
