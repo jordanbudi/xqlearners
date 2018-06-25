@@ -20,11 +20,6 @@ class MyApp < Sinatra::Base
     erb :learnerGoal
   end
 
-  get '/text' do
-    @messagefortext = "hello"
-    erb :text
-  end
-
   post '/send' do
     @phonenumber = params[:phonenumber]
     @path = params[:path]

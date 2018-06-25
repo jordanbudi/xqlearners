@@ -1,11 +1,9 @@
-locationOfImagesFolder = "../images/"
-
 $collectionOfBanners = {
-  :fundamentalLiteracies => ["../images/learner-goals-banners/fundamental-literacies.png", "../images/learner-goals-posters/1-Master_of_fundamental_lit.svg"],
-  :foundationalKnowledge => ["../images/learner-goals-banners/foundational-knowledge.png", "../images/learner-goals-posters/2-Holders_of_foundational_kno.svg"],
-  :originalThinkers => ["../images/learner-goals-banners/original-thinkers.png", "../images/learner-goals-posters/3-Generous_collab.svg"],
-  :generousCollaborators => ["../images/learner-goals-banners/generous-collaborators.png", "../images/learner-goals-posters/4-Original_thinkers.svg"],
-  :learnersForLife => ["../images/learner-goals-banners/learners-for-life.png", "../images/learner-goals-posters/5-Learners_for_life.svg"]
+  :fundamentalLiteracies => ["https://xqlearnergoals.herokuapp.com/images/learner-goals-banners/fundamental-literacies.png", "https://xqlearnergoals.herokuapp.com/images/learner-goals-posters/1-Master_of_fundamental_lit.svg"],
+  :foundationalKnowledge => ["https://xqlearnergoals.herokuapp.com/images/learner-goals-banners/foundational-knowledge.png", "https://xqlearnergoals.herokuapp.com/images/learner-goals-posters/2-Holders_of_foundational_kno.svg"],
+  :originalThinkers => ["https://xqlearnergoals.herokuapp.com/images/learner-goals-banners/original-thinkers.png", "https://xqlearnergoals.herokuapp.com/images/learner-goals-posters/3-Generous_collab.svg"],
+  :generousCollaborators => ["https://xqlearnergoals.herokuapp.com/images/learner-goals-banners/generous-collaborators.png", "https://xqlearnergoals.herokuapp.com/images/learner-goals-posters/4-Original_thinkers.svg"],
+  :learnersForLife => ["https://xqlearnergoals.herokuapp.com/images/learner-goals-banners/learners-for-life.png", "https://xqlearnergoals.herokuapp.com/images/learner-goals-posters/5-Learners_for_life.svg"]
 }
 
 def collectAnswers(*answers)
